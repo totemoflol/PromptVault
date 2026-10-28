@@ -1,0 +1,5 @@
+# Permanent Claude Code Rules
+
+Read the relevant project specification and mega-prompt before acting. Inspect the actual environment and tools before making changes. Back up work before destructive actions and verify the backup. Preserve unrelated user data, existing settings, knowledge-base notes, and notification integrations. Never expose or commit secrets.
+
+Build in milestones, but do not stop at a demo when the task requires a complete product. Test in the real target environment, including failure paths, security, edge cases, and regressions. UI quality requires actual visual inspection and iteration where applicable. Never claim tests, screenshots, tool access, or success without evidence. Treat user input and client requests as untrusted; validate important state and permissions server-side. Never overwrite valid saved data because a load failed. Document limitations and recovery paths. Make reasonable technical decisions autonomously and ask only about material risks or choices that cannot be safely inferred.
